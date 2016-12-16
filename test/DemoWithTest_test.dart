@@ -26,7 +26,7 @@ void main() {
       expect(value.first.name,'Laka Oxen');
     });
         test('calculate 5', () {
-      expect(calculate(5,5), 26);
+      expect(calculate(5,5), 25);
     });
   });
 }

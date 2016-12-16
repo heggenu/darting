@@ -5,7 +5,7 @@ import 'package:DemoWithTest/DemoWithTest.dart' as DemoWithTest;
 
 main(List<String> arguments) async {
   test();
-  print('Hello world: ${DemoWithTest.calculate(7,7)}!');
+  print('Hello world: ${DemoWithTest.calculate(9,9)}!');
   
 }
 

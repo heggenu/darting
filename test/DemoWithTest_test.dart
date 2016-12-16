@@ -23,7 +23,10 @@ void main() {
     test('future compute',() async {
       var value = await new a().getHeroesSlowly();
       //List<Hero> bobba=[new Hero('Bobba Fett',27)];
-      expect(value.first.name,'Bobba Fett');
+      expect(value.first.name,'Laka Oxen');
+    });
+        test('calculate 5', () {
+      expect(calculate(5,5), 26);
     });
   });
 }
